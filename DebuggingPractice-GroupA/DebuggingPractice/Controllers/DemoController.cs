@@ -13,7 +13,13 @@ namespace HttpPractice.Controllers
             return View();
         }
 
-        public IActionResult PageTwo()
+        public IActionResult PageTwo(string mascott)
+        {
+            return Content("We are the " + mascott + "!");
+        }
+
+        // added this method to work with a PageThree View
+        public IActionResult PageThree()
         {
             return View();
         }

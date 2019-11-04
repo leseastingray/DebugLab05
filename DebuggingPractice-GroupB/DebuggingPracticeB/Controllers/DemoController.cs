@@ -31,7 +31,8 @@ namespace HttpPractice.Controllers
         public IActionResult Quiz1Answer(string number1, string number2, string answer)
         {
             string check = "wrong :-(";
-            if (number1 + number2 == answer)
+            // parsed string input number1, number2, and answer to get ints so math happens
+            if (int.Parse(number1) + int.Parse(number2) == int.Parse(answer))
                 check = "right!";
             return Content(check);
         }

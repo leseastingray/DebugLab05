@@ -7,7 +7,7 @@
 <ol>
     <!--Bug #1: fixed. changed href here from Demo/PageOne to Demo/Index-->
     <li>This link should open a <a href="Demo/Index">new page</a> named Index in the Views/Demo folder</li>
-    <!--Bug #2-->
+    <!--Bug #2: fixed. add PageTwo View, changed corresponding DemoController method to take a string variable mascott as input-->
     <li>This link sends the key-value pair "mascot, Titans" to the <a href="Demo/PageTwo?mascott=Titans">linked page</a> which will display "We are the Titans!"</li>
     <!--Bug #3: fixed. changed input name from "nickname" to "nick" to correspond to post method in HomeController-->
     <li>
@@ -20,21 +20,21 @@
             <input type="submit" />
         </form>
     </li>
-    <!--Bug #4 -->
+    <!--Bug #4: fixed. changed input id= to input name= in the code below-->
     <li>
         <form action="Home/FavFood" method="post">
             <p> Another form like the one above, after submitting, a page will be shown containing the field names and values you entered.</p>
             <h3>Favorite Foods</h3>
             <label>Main Dish</label><br />
-            <input id="main" /><br />
+            <input name="main" /><br />
             <label>Vegetable </label><br />
-            <input id="vegetable" /><br />
+            <input name="vegetable" /><br />
             <label>Desert </label><br />
-            <input id="desert" /><br />
+            <input name="desert" /><br />
             <input type="submit" />
         </form>
     </li>
-    <!-- Bug # 5 -->
+    <!-- Bug # 5: fixed. switched input name="artist" and input name="song" to match with their respective labels in the code below -->
     <li>
         <form action="Home/FavoriteMusic" method="post">
             <p> Another form like the one above, after submitting, a page will be shown containing the field names and values you entered.</p>
@@ -42,15 +42,15 @@
             <label>Genre</label><br />
             <input name="genre" /><br />
             <label>Artist</label><br />
-            <input name="song" /><br />
-            <label>Song </label><br />
             <input name="artist" /><br />
+            <label>Song </label><br />
+            <input name="song" /><br />
             <input type="submit" />
         </form>
     </li>
-    <!-- Bug #6 -->
+    <!-- Bug #6:fixed. added PageThree View and corresponding PageThree method to DemoController-->
     <li>This link should open a <a href="Demo/PageThree">new page</a> named PageThree in the Views/Demo folder</li>
-    <!-- Bug #7 -->
+    <!-- Bug #7: in progress. random numbers in ViewBag do not seem to be passing in as operands in equation -->
     <li>This link should open a <a href="Demo/Quiz">new page</a> named Quiz in the Views/Demo folder containing a form. When you submit the form it should check your answer, and show a new page with "right" or "wrong"</li>
     <!-- Bug #8 -->
     <li>This link should open a <a href="Demo/Quiz2">new page</a> named Quiz2 in the Views/Demo folder containing a form. When you submit the form it should check your answer, and show a new page with "right" or "wrong"</li>
