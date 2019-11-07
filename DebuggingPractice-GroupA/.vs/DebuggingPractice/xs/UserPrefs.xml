@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{3500A7E0-10A1-45D1-AE7A-7E4CF86F4D17}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DebuggingPractice/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="DebuggingPractice/Views/Home/Index.cshtml" Line="53" Column="127" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DebuggingPractice" expanded="True">
+            <Node name="DebuggingPractice" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DebuggingPractice PreferredExecutionTarget="/Applications/Firefox Nightly.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
